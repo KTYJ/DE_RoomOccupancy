@@ -70,8 +70,9 @@ class HdfsToMongoExporter:
 # ----------------------------
 # Main execution
 # ----------------------------
+
 if __name__ == "__main__":
-    MONGO_URI = "mongodb+srv://klwongwm21_db_user:1RtBdiUtFojf2GMf@wongkahlok.rbyed6t.mongodb.net/?appName=WongKahLok"
+    MONGO_URI = "mongodb+srv://klwongwm21_db_user:1XXXXXXXXX@wongkahlok.rbyed6t.mongodb.net/?appName=WongKahLok"
     exporter = HdfsToMongoExporter(
         spark_app_name="Library_Export_to_MongoDB",
         base_hdfs_path="/user/hduser/occupancy/batch_output/",

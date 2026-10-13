@@ -78,6 +78,11 @@ Before running the system, ensure the following are available:
 - Python environment is prepared
 - Required Python libraries and Spark packages are available
 
+## Security Note
+The MongoDB connection string used in the project configuration is intentionally masked or truncated in the repository to protect sensitive credentials. Do not commit real database URIs, passwords, or connection secrets to version control.
+
+Before running the export workflow in a real environment, replace the placeholder value with a valid connection string stored securely in environment variables or a protected configuration file.
+
 ## Setup Steps
 ### 1. Start the required services
 ```bash

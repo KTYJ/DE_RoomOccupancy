@@ -63,7 +63,7 @@ class LibraryMongoAnalyzer:
 # Main execution
 # ----------------------------
 if __name__ == "__main__":
-    MONGO_URI = "mongodb+srv://klwongwm21_db_user:1RtBdiUtFojf2GMf@wongkahlok.rbyed6t.mongodb.net/?appName=WongKahLok"
+    MONGO_URI = "mongodb+srv://klwongwm21_db_user:1XXXXXXXXXlok.rbyed6t.mongodb.net/?appName=WongKahLok"
     analyzer = LibraryMongoAnalyzer(MONGO_URI)
 
     analyzer.busiest_hour()
