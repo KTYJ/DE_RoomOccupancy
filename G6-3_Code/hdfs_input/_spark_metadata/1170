@@ -1,0 +1,2 @@
+v1
+{"path":"hdfs://localhost:9000/user/hduser/occupancy/robod_curated_v3/part-00000-c1084c89-ae7c-4193-a761-c298fa5b7040-c000.snappy.parquet","size":9125,"isDir":false,"modificationTime":1775195817675,"blockReplication":1,"blockSize":134217728,"action":"add"}
